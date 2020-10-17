@@ -1,0 +1,120 @@
+body {
+  background-color: #555;
+}
+
+div {
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+span {
+  width: 136px;
+  height: 103px;
+  background-color: #ff6b6b;
+}
+
+.task-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 36px;
+}
+
+.task-2 > span:first-of-type {
+  margin-right: 36px;
+}
+
+.task-3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 36px;
+}
+
+.task-3 > span + span {
+  margin-left: 36px;
+}
+
+.task-3 > span {
+  margin-top: 30px;
+}
+
+.task-4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-right: 36px;
+}
+
+.task-4 > span {
+  margin-top: 30px;
+}
+
+.task-4 > span + span {
+  margin-left: 36px;
+}
+
+.task-5 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.task-5 > span {
+  margin-left: 25px;
+}
+
+.task-6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-6 > span {
+  margin: 25px;
+}
+
+.task-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.task-8 > span {
+  margin-bottom: 30px;
+}
+
+.task-9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-9 > span {
+  margin-bottom: 30px;
+}
+
+.task-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
