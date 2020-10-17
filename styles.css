@@ -3,6 +3,7 @@ body {
 }
 
 div {
+  display: flex;
   background-color: #fff;
   width: 600px;
   height: 300px;
@@ -16,13 +17,11 @@ span {
 }
 
 .task-1 {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .task-2 {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 36px;
@@ -33,7 +32,6 @@ span {
 }
 
 .task-3 {
-  display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-right: 36px;
@@ -48,7 +46,6 @@ span {
 }
 
 .task-4 {
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: 30px;
@@ -64,7 +61,6 @@ span {
 }
 
 .task-5 {
-  display: flex;
   justify-content: flex-start;
   align-items: center;
 }
@@ -74,7 +70,6 @@ span {
 }
 
 .task-6 {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -84,13 +79,11 @@ span {
 }
 
 .task-7 {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .task-8 {
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -102,7 +95,6 @@ span {
 }
 
 .task-9 {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -113,7 +105,6 @@ span {
 }
 
 .task-10 {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
