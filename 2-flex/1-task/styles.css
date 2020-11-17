@@ -1,5 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: #ffffff;
+  height: 100%;
+  margin: 0;
 }
 
 .container {
@@ -11,25 +17,22 @@ body {
   align-items: center;
 }
 
-.class-1 {
+.class {
   width: 136px;
   height: 103px;
-  background-color: #ff6b6b;
-  margin-right: 35px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.class-2 {
-  width: 136px;
-  height: 103px;
-  background-color: #fbf67f;
-  display: flex;
-
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.class:first-of-type {
+  background-color: #ff6b6b;
+  margin-right: 35px;
+}
+
+.class:last-of-type {
+  background-color: #fbf67f;
 }
 
 .inside-1 {
