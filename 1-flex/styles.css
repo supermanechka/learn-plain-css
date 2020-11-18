@@ -7,7 +7,7 @@ div {
   background-color: #fff;
   width: 600px;
   height: 300px;
-  margin-bottom: 50px;
+  margin: 0px auto 50px;
 }
 
 span {
@@ -24,7 +24,6 @@ span {
 .task-2 {
   justify-content: center;
   align-items: center;
-  margin-right: 36px;
 }
 
 .task-2 > span:first-of-type {
@@ -34,7 +33,6 @@ span {
 .task-3 {
   justify-content: center;
   align-items: flex-start;
-  margin-right: 36px;
 }
 
 .task-3 > span + span {
@@ -49,7 +47,6 @@ span {
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: 30px;
-  margin-right: 36px;
 }
 
 .task-4 > span {
