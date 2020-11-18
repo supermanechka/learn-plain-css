@@ -4,11 +4,12 @@ html {
 
 body {
   height: 100%;
+  margin: 0 auto;
   background-color: #d3a0fb;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
 
 .left {
@@ -21,7 +22,6 @@ body {
 
 .heading {
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
   color: #d3a0fb;
   font-weight: bold;
   margin: 23px 20px 0 12px;
@@ -29,7 +29,6 @@ body {
 
 .date {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
   color: #d3a0fb;
   margin: 24px 59px 0px 12px;
 }
@@ -44,7 +43,6 @@ body {
 
 .text {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
   color: #d3a0fb;
   margin: 27px 15px 0px 15px;
 }
