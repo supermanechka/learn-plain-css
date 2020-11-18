@@ -1,101 +1,70 @@
 body {
   width: 100%;
+  margin: 0;
+  padding: 50px 0;
   background-color: #363636;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
-.header {
+header {
   width: 70%;
   height: 100px;
+  margin: 0 auto 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fbf67f;
+  color: #a8b5e4;
   border: 5px solid #a8b5e4;
   border-radius: 10px;
-  margin: 50px;
-}
-
-.word-header {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  color: #a8b5e4;
-  font-weight: bold;
-  margin-left: 196px;
-  margin-top: 16px;
 }
 
 .container {
   width: 70%;
-  margin: 50px;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf67f;
+  border-radius: 10px;
 }
 
 .card-1 {
   width: 20%;
-  height: 600px;
-  background-color: #fbf67f;
   border: 5px solid #ff6b6b;
-  border-radius: 10px;
-}
-
-.word-card-1 {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
   color: #ff6b6b;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 44px;
 }
 
 .card-2 {
   width: 20%;
-  height: 600px;
-  background-color: #fbf67f;
   border: 5px solid #d3a0fb;
-  border-radius: 10px;
-}
-
-.word-card-2 {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
   color: #d3a0fb;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 44px;
 }
 
 .card-3 {
   width: 40%;
-  height: 600px;
-  background-color: #fbf67f;
   border: 5px solid #48d232;
-  border-radius: 10px;
-}
-
-.word-card-3 {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
   color: #48d232;
-  font-weight: bold;
-  margin-left: 80px;
-  margin-top: 44px;
 }
 
 .footer {
   width: 70%;
   height: 200px;
-  margin: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fbf67f;
+  color: #a8b5e4;
   border: 5px solid #a8b5e4;
   border-radius: 10px;
-  margin: 50px;
-}
-
-.word-footer {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  color: #a8b5e4;
-  font-weight: bold;
-  margin-left: 197px;
-  margin-top: 23px;
 }
