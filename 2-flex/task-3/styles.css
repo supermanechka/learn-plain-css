@@ -8,15 +8,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .left {
   width: 122px;
   height: 103px;
   background-color: #fbf67f;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px 0 0 10px;
   box-shadow: 10px 10px 14px rgba(68, 41, 41, 0.35);
 }
 
@@ -25,9 +24,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #d3a0fb;
   font-weight: bold;
-  margin-left: 12px;
-  margin-right: 20px;
-  margin-top: 23px;
+  margin: 23px 20px 0 12px;
 }
 
 .date {
@@ -41,8 +38,7 @@ body {
   width: 200px;
   height: 103px;
   background-color: #ffffff;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 0 10px 10px 0;
   box-shadow: 10px 10px 14px rgba(68, 41, 41, 0.35);
 }
 
