@@ -15,63 +15,39 @@ body {
   width: 150px;
   background-color: #546397;
   border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(68, 41, 41, 0.35);
 }
 
 .card + .card {
   margin-left: 94px;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.left > .image {
+.image {
   width: 38px;
   height: 38px;
-  margin-top: 20px;
   border-radius: 50%;
-  background-image: url("IMG-1.JPG");
+  background-image: url('IMG-1.JPG');
   background-size: 100%;
   object-fit: cover;
-  position: relative;
 }
 
-.left .badge {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #fbf67f;
-  border: 2px solid #d3a0fb;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.left > .name {
+.name {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
 
-.left .position {
+.position {
   font-size: 5px;
-  font-family: "Roboto Mono", sans-serif;
-  margin-top: 5px;
+  font-family: 'Roboto Mono', sans-serif;
   color: #a8b5e4;
 }
 
-.left > .oval-container {
+.oval-container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #a8b5e4;
 }
 
 .oval-container > .oval {
@@ -80,7 +56,7 @@ body {
   background-color: #fbf67f;
   border-radius: 15px;
   font-size: 18px;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: #a8b5e4;
   display: flex;
   align-items: center;
@@ -92,7 +68,7 @@ body {
   margin-right: 10px;
 }
 
-.left > .button-container {
+.button-container {
   height: 60px;
   display: flex;
   align-items: center;
@@ -110,7 +86,93 @@ body {
   box-shadow: 0px 0px 5px rgba(68, 41, 41, 0.35);
   border: 1px solid #fbf67f;
   font-size: 7px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fbf67f;
   font-weight: bold;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left .badge {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fbf67f;
+  border: 2px solid #d3a0fb;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.left > .image {
+  margin-top: 20px;
+  position: relative;
+}
+
+.left > .name {
+  margin-top: 10px;
+}
+
+.left .position {
+  margin-top: 5px;
+}
+
+.left > .oval-container {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a8b5e4;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding-top: 26px;
+}
+
+.image-container {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right > .name {
+  margin-top: 5px;
+}
+
+.right > .position {
+  margin-top: 2px;
+}
+
+.right > .button-container {
+  margin-top: 12px;
+  height: 22px;
+}
+
+.right > .oval-container {
+  height: 60px;
+  border-top: 1px solid #a8b5e4;
+  margin-top: 14px;
+}
+
+.right > .oval-container > .oval:nth-of-type(1),
+.right > .oval-container > .oval:nth-of-type(3) {
+  margin-bottom: 15px;
+}
+
+.right > .oval-container > .oval:nth-of-type(2) {
+  margin-top: 15px;
 }
