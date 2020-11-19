@@ -1,5 +1,7 @@
 body {
   background-color: #555;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 div {
@@ -11,8 +13,8 @@ div {
 }
 
 span {
-  width: 136px;
-  height: 103px;
+  width: 140px;
+  height: 100px;
   background-color: #ff6b6b;
 }
 
@@ -27,7 +29,7 @@ span {
 }
 
 .task-2 > span:first-of-type {
-  margin-right: 36px;
+  margin-right: 40px;
 }
 
 .task-3 {
@@ -36,7 +38,7 @@ span {
 }
 
 .task-3 > span + span {
-  margin-left: 36px;
+  margin-left: 40px;
 }
 
 .task-3 > span {
@@ -54,7 +56,7 @@ span {
 }
 
 .task-4 > span + span {
-  margin-left: 36px;
+  margin-left: 40px;
 }
 
 .task-5 {
@@ -105,4 +107,5 @@ span {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 0px;
 }
