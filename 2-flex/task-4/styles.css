@@ -137,7 +137,7 @@ body {
   padding-top: 26px;
 }
 
-.image-container {
+.right > .image-container {
   width: 40px;
   height: 40px;
   position: absolute;
