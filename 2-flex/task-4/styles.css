@@ -3,109 +3,103 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #dbccff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
-.container {
-  width: 128px;
-  height: 230px;
+.card {
+  width: 150px;
   background-color: #546397;
   border-radius: 10px;
 }
 
-.container:last-of-type {
+.card + .card {
   margin-left: 94px;
-  height: 156px;
 }
 
-.image {
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left > .image {
   width: 38px;
   height: 38px;
-  margin: 17px 0 0 45px;
-  border-radius: 50px;
-  content: url('IMG-1.JPG');
+  margin-top: 20px;
+  border-radius: 50%;
+  background-image: url("IMG-1.JPG");
+  background-size: 100%;
   object-fit: cover;
+  position: relative;
 }
 
-.right .image {
-  margin-top: -17px;
-  border: 2px solid #ffffff;
-  border-radius: 50px;
-}
-
-.small-oval {
+.left .badge {
   width: 6px;
   height: 6px;
-  margin: -30px 0 0 75px;
-  position: relative;
-  border-radius: 6px;
+  border-radius: 50%;
   background-color: #fbf67f;
   border: 2px solid #d3a0fb;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.name {
+.left > .name {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
-  margin: 10px 0 0 21px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
   color: #ffffff;
 }
 
-.right .name {
-  margin-top: 5px;
-}
-
-.position {
+.left .position {
   font-size: 5px;
-  font-family: 'Roboto Mono', sans-serif;
-  margin: 4px 0 0 34px;
+  font-family: "Roboto Mono", sans-serif;
+  margin-top: 5px;
   color: #a8b5e4;
 }
 
-.right .position {
-  margin-top: 2px;
-}
-
-.block-ovals {
+.left > .oval-container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a8b5e4;
 }
 
-.ovals {
+.oval-container > .oval {
   width: 30px;
   height: 30px;
   background-color: #fbf67f;
   border-radius: 15px;
-  margin-top: 32px;
   font-size: 18px;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: "Roboto Mono", monospace;
   color: #a8b5e4;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.ovals:nth-of-type(2) {
+.oval-container > .oval:nth-of-type(2) {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.right .ovals:nth-of-type(1) {
-  margin-top: 0px;
-  margin-bottom: 26px;
+.left > .button-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.right .ovals:nth-of-type(3) {
-  margin-top: 0px;
-  margin-bottom: 26px;
-}
-
-.button-friend {
+.button-container > .button {
   width: 65px;
   height: 22px;
   display: flex;
@@ -116,15 +110,7 @@ body {
   box-shadow: 0px 0px 5px rgba(68, 41, 41, 0.35);
   border: 1px solid #fbf67f;
   font-size: 7px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fbf67f;
   font-weight: bold;
-}
-
-.left .button-friend {
-  margin: 43px 0 0 31px;
-}
-
-.right .button-friend {
-  margin: 12px 0 0 31px;
 }
