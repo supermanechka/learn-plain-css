@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  margin: 0 0 0 130px;
+}
+
+header {
+  width: 70%;
+  margin-top: 45px;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+nav {
+  width: 70%;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+main {
+  width: 70%;
+}
+
+section {
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img {
+  width: 45%;
+  height: 200px;
+  border-radius: 5%;
+  background-size: 100%;
+  margin-right: 70px;
+  background-position: center;
+}
+
+.image-5 {
+  background-image: url('task-5.png');
+}
+
+.image-4 {
+  background-image: url('task-4.png');
+}
+
+.image-3 {
+  background-image: url('task-3.png');
+}
+
+.image-2 {
+  background-image: url('task-2.png');
+}
+
+.image-1 {
+  background-image: url('task-1.png');
+}
+
+footer {
+  width: 70%;
+  margin: 217px 0 22px 0;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+a {
+  text-decoration: unset;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+a:hover {
+  color: rgba(206, 144, 255, 1);
+}
