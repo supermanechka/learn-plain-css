@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+header {
+  width: 60%;
+  margin-top: 45px;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+nav {
+  width: 60%;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+main {
+  width: 60%;
+}
+
+section {
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img {
+  width: 45%;
+  height: 200px;
+  border-radius: 5%;
+  background-size: 100%;
+  margin-right: 70px;
+  background-position: center;
+}
+
+.image-5 {
+  background-image: url('img/task-5.png');
+}
+
+.image-4 {
+  background-image: url('img/task-4.png');
+}
+
+.image-3 {
+  background-image: url('img/task-3.png');
+}
+
+.image-2 {
+  background-image: url('img/task-2.png');
+}
+
+.image-1 {
+  background-image: url('img/task-1.png');
+}
+
+footer {
+  width: 60%;
+  margin: 220px 0 20px 0;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a {
+  text-decoration: unset;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+a:hover {
+  color: rgba(206, 144, 255, 1);
+}
+
+main > section > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > section > a > svg {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  fill: #000000;
+}
+
+main > section > a:hover svg {
+  fill: rgba(206, 144, 255, 1);
+}
+
+footer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  margin-left: 3px;
+}
+
+footer > a > svg {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
+}
+
+footer > a:hover svg {
+  fill: rgba(206, 144, 255, 1);
+}
