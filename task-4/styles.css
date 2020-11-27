@@ -13,36 +13,37 @@ body {
 }
 
 .left {
-  width: 122px;
-  height: 103px;
+  width: 280px;
+  height: 240px;
   background-color: #fbf67f;
-  border-radius: 10px 0 0 10px;
+  border-radius: 20px 0 0 20px;
   box-shadow: 10px 10px 15px rgba(68, 41, 41, 0.35);
 }
 
 .heading {
-  font-size: 14px;
+  font-size: 30px;
   color: #d3a0fb;
   font-weight: bold;
   margin: 25px 20px 0 15px;
 }
 
 .date {
-  font-size: 10px;
+  font-size: 25px;
   color: #d3a0fb;
   margin: 25px 60px 0px 15px;
 }
 
 .right {
-  width: 200px;
-  height: 103px;
+  width: 480px;
+  height: 240px;
   background-color: #ffffff;
   border-radius: 0 10px 10px 0;
   box-shadow: 10px 10px 15px rgba(68, 41, 41, 0.35);
 }
 
 .text {
-  font-size: 10px;
+  font-size: 25px;
+
   color: #d3a0fb;
   margin: 30px 15px 0px 15px;
 }
