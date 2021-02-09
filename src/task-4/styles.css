@@ -15,6 +15,10 @@ body {
 .left {
   width: 280px;
   height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #fbf67f;
   border-radius: 20px 0 0 20px;
   box-shadow: 10px 10px 15px rgba(68, 41, 41, 0.35);
@@ -30,7 +34,7 @@ body {
 .date {
   font-size: 25px;
   color: #d3a0fb;
-  margin: 25px 60px 0px 15px;
+  margin: 0 0 15px 15px;
 }
 
 .right {
