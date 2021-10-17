@@ -43,7 +43,7 @@ section {
 .img {
   width: 45%;
   height: 200px;
-  border-radius: 5%;
+  border-radius: 20px;
   background-size: 100%;
   margin-right: 70px;
   background-position: center;

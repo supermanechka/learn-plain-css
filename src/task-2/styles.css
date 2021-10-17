@@ -12,8 +12,8 @@ body {
 }
 
 .class {
-  width: 500px;
-  height: 350px;
+  width: 35%;
+  height: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,8 +30,8 @@ body {
 }
 
 .inside-1 {
-  width: 130px;
-  height: 200px;
+  width: 25%;
+  height: 55%;
   background-color: #f1bd58;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .inside-2 {
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 30%;
   background-color: #d3a0fb;
   margin-right: 40px;
 }
